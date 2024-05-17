@@ -4,6 +4,7 @@ import { chain } from "./chain";
 import { BuyMeCoffee } from "../../components/BuyMeCoffee";
 
 export default function Home() {
+  
   return (
     <div style={{
       display: 'flex',
@@ -13,11 +14,12 @@ export default function Home() {
       height: '100vh',
       marginTop: '2rem',
     }}>
-      <h1 style={{ marginBottom: "1rem"}}>Buy me a coffee</h1>
+      <h1 style={{ marginBottom: "1rem"}}>Buy Token</h1>
       <ConnectEmbed 
         client={client}
         chain={chain}
-      />
+        theme={"light"}
+       />
       <BuyMeCoffee />
     </div>
   );

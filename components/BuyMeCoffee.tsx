@@ -85,7 +85,7 @@ export const BuyMeCoffee = () => {
                                 })
                             )}
                             onTransactionConfirmed={() => {
-                                alert("Thank you for the coffee!")
+                                alert("Thank you for the buying token!")
                                 setBuyAmount(0);
                                 setMessage("");
                                 refetchTotalCoffees();
@@ -97,12 +97,12 @@ export const BuyMeCoffee = () => {
                                 fontSize: "0.75rem",
                                 marginBottom: "2rem",
                             }}
-                        >Buy Coffee</TransactionButton>
+                        >Buy</TransactionButton>
                     )}
                 </div>
                 <div>
-                    <h3 style={{ marginBottom: "1rem"}}>Total Coffees: {totalCoffees?.toString()}</h3>
-                    <p style={{ fontSize: "1.15rem" }}>Recent Coffees:</p>
+                    <h3 style={{ marginBottom: "1rem"}}>Total Sold Tokens: {totalCoffees?.toString()}</h3>
+                    <p style={{ fontSize: "1.15rem" }}>Recent Sold Tokens:</p>
                     {contractEvents && contractEvents.length > 0 && (
                         [...contractEvents].reverse().map((event, index) => (
                             <div key={index}
