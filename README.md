@@ -1,24 +1,24 @@
-# Web3 Buy Me A Coffee
+# Web3 Buy  A Token
 
-Web3 Buy Me A Coffee app allows a user to send a tip in native token attached with a message.
+Web3 buy  A Token app allows a user to buy tokens in native token attached with a message.
 
 ## Getting Started
 
-To use the Buy Me A Coffee app, you'll need to clone this repository, install dependencies, set up environment variables and contract addresses, and deploy the application. Below are the steps to follow:
+To use the buy  A Token app, you'll need to clone this repository, install dependencies, set up environment variables and contract addresses, and deploy the application. Below are the steps to follow:
 
 ### Cloning the Repository
 
 To get started, clone the repository to your local machine:
 ```
-git clone https://github.com/thirdweb-example/youtube-buy-me-a-coffee.git
+git clone https://github.com/LeaderMalang/buy-token-thirdweb
 ```
 ```
-cd youtube-buy-me-a-coffee
+cd buy-token-thirdweb
 ```
 
-### Buy Me A Coffee smart contract
+### buy-token-thirdweb smart contract
 Follow to YouTube tutorial on creating your own smart contract or deploy here:
-[Buy Me A Coffee smart contract](https://thirdweb.com/0xEe29620D0c544F00385032dfCd3Da3f99Affb8B2/BuyMeACoffee)
+[buy-token smart contract](https://thirdweb.com/0xEe29620D0c544F00385032dfCd3Da3f99Affb8B2/BuyMeACoffee)
 
 ### Installing Dependencies
 
@@ -37,7 +37,7 @@ yarn install
 
 For a detailed setup and deployment guide, watch our video tutorial on YouTube:
 
-[Web3 Buy Me A Coffee - How to web3 developer tutorial](https://youtu.be/n7zo7-DMRmQ)
+[Web3 buy-token - How to web3 developer tutorial](https://youtu.be/n7zo7-DMRmQ)
 
 ### Setting Environment Variables
 
