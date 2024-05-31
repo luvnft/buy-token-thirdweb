@@ -1,4 +1,4 @@
 import { defineChain } from "thirdweb";
-import { arbitrumSepolia } from "thirdweb/chains";
+import { base } from "thirdweb/chains";
 
-export const chain = defineChain( arbitrumSepolia );
+export const chain = defineChain(base);
