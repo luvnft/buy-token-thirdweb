@@ -14,7 +14,7 @@ export default function Home() {
       height: '100vh',
       marginTop: '2rem',
     }}>
-      <h1 style={{ marginBottom: "1rem"}}>Buy Token</h1>
+      <h1 style={{ marginBottom: "1rem"}}>Leave an $ATL Tip</h1>
       <ConnectEmbed 
         client={client}
         chain={chain}

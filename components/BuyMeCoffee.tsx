@@ -101,8 +101,8 @@ export const BuyMeCoffee = () => {
                     )}
                 </div>
                 <div>
-                    <h3 style={{ marginBottom: "1rem"}}>Total Sold Tokens: {totalCoffees?.toString()}</h3>
-                    <p style={{ fontSize: "1.15rem" }}>Recent Sold Tokens:</p>
+                    <h3 style={{ marginBottom: "1rem"}}>Total Tips: {totalCoffees?.toString()}</h3>
+                    <p style={{ fontSize: "1.15rem" }}>Recent Tips:</p>
                     {contractEvents && contractEvents.length > 0 && (
                         [...contractEvents].reverse().map((event, index) => (
                             <div key={index}
